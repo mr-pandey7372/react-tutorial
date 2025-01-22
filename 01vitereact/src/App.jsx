@@ -1,14 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Chai from "./chai";
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <h1>Chai aur React with Vite | Abhimanyu</h1>
+    <>
+    <Chai/>
+    <h1>chai aur react</h1>
+    <p>test para</p>
+    </>
+    
   )
 }
 
-export default App
+export default App;
+
+
